@@ -1,0 +1,32 @@
+.container{
+    background-color: rgba(35, 97, 89, 0.575);
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pokebola {
+    height: 140px;
+    display: flex;
+  }
+
+  span{
+    cursor: pointer;
+    display: inline-block;
+    color: greenyellow;
+    font-size: 20px;
+    /* background-color: rgba(0, 0, 0, 0.384); */
+    padding: 10px;
+    border-radius: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  
+  span:hover {
+    
+    background-color: rgb(199, 43, 43);
+    color: rgb(201, 201, 30);;
+    
+    transition: 0.5s;
+  } 
